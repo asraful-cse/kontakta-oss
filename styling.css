@@ -1,0 +1,432 @@
+*body{
+	margin:0;
+	padding:0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.container{
+	max-width:1310px;
+	padding-left:50px;
+	padding-right:50px;
+	margin:0 auto;
+	font-family: 'Poppins', sans-serif;
+}
+
+/*================Header/logo Style Start==============*/
+
+*.main-heading {
+	padding: 30px;
+	padding-bottom: 30px;
+}
+
+.main-heading .head{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.main-heading .logo_part{
+    width: 30%;
+}
+
+.main-heading .main_menu{
+	width:70%;
+}
+
+.main-heading .main_menu ul{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: end;
+	align-items: center;
+}
+
+.main-heading .main_menu li{
+	padding-right: 30px;
+	
+}
+
+.main-heading .main_menu ul li a{
+text-decoration: none;
+font-size: 13px;
+font-width: 600px;
+font-weight: 600;
+color: #444;
+text-transform: uppercase;
+}
+
+.main-heading .main_menu .active a{	
+color: #01b2b4;
+}
+
+/*===================Slider Part CSS===================*/
+.slider_page-section .container{
+	max-width:100%;
+	padding:0;
+}
+.slider_page-section img{
+	max-width:100%;
+}
+
+/*==================OM OSS Part CSS===================*/
+
+.om_oss-section .main-clm{
+	display:flex;
+	flex-wrap:wrap;
+	padding-top: 140px;
+	padding-bottom: 135px;
+}
+.om_oss-section .fst-clm {
+	width: 48%;
+	margin-right: 3%;
+}
+.om_oss-section .scnd-clm{
+	width:46%;
+}
+
+.om_oss-section .fst-clm h2 {
+	color: #4c4c4c;
+	font-size: 30px;
+	font-weight: 600;
+	text-transform: uppercase;
+	bottom: 30px;
+	border-radius: 5px;
+	margin-bottom: 22px;
+	position: relative;
+	margin-left: 52px;
+	margin-top: 23px;
+}
+.om_oss-section .fst-clm h2::after {
+	content: '';
+	width: 85px;
+	height: 1px;
+	position: absolute;
+	background: #4fbcb7;
+	bottom: -23px;
+	left: 0;
+	border-radius: 5px;
+}
+.om_oss-section .fst-clm h2::before {
+	content: '';
+	width: 43px;
+	height: 3px;
+	position: absolute;
+	background: #4fbcb7;
+	bottom: -24px;
+	left: 20px;
+	border-radius: -26px;
+}
+
+
+
+.om_oss-section .fst-clm span{
+	margin-left: -9px;
+	color: #4fbcb7;
+}
+
+
+.om_oss-section .fst-clm p {
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 28px;
+	text-align: inherit;
+	margin-left: 54px;
+}
+
+.om_oss-section .fst-clm a{
+		font-size: 12px;
+		color: #4c4c4c;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 500;
+		border: 2px solid #4fbcb7;
+		padding: 10px 30px;
+		border-radius: 2px;
+		transition: .4s;
+}
+.om_oss-section .fst-clm a:hover{
+		background: yellow;
+		color: #dd2a32;
+}
+
+.om_oss-section .fst-clm .buttom{
+	text-align: center;
+	margin-top: 83px;
+}
+
+.om_oss-section .image-clm img{
+	max-width:100%
+}
+.om_oss-section .image-clm{
+	position:relative;
+}
+.om_oss-section .image-clm::before {
+	content: '';
+	position: absolute;
+	color: #4FBCB7;
+	background: #4FBCB7;
+	height: 54%;
+	width: 43%;
+	z-index: -1;
+	left: -6px;
+	top: -7px;
+}
+/*+++++++++++++++++++++++++++++++BILDER SECTION PART ++++++++++++++++++++++++++++++++++++++++++*/
+.bilder_part-section{
+    margin-bottom: -12px;
+}
+.bilder_part-section .container{
+	max-width: 100%;
+	padding: 0;
+
+}
+
+.bilder_part-section .header_part h2 {
+	background: #4FBCB7;
+	text-align: center;
+	font-size: 36.6px;
+	color: #fff;
+	padding: 45px;
+	position: relative;
+	top: 30px;
+	margin: 0 auto;
+}
+.bilder_part-section .header_part h2::before {
+	content: '';
+	position: absolute;
+	height: 2px;
+	width: 103px;
+	background: #fff;
+	top: 96px;
+}
+.bilder_part-section .header_part h2::after {
+	content: '';
+	position: absolute;
+	height: 4px;
+	width: 46px;
+	background: #fff;
+	top: 95px;
+	left: 48%;
+}
+.bilder_part-section img{
+	max-width: 100%;
+}
+
+.bilder_part-section .clm{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-ms-flex-wrap:wrap;
+	    flex-wrap:wrap;
+	
+}
+.bilder_part-section .frst-clm {
+	width: 50%;
+}
+.bilder_part-section .scnd-clm {
+	width: 50%;
+	display: flex;
+	flex-wrap:wrap;
+}
+.bilder_part-section .scnd_one-clm {
+	width: 49%;
+	margin: 6px;
+}
+
+.bilder_part-section .scnd_two-clm {
+	width: 49%;
+	margin: auto;
+}
+/*======================KONTAKTA OSS==============================*/
+/*
+ h4{
+	text-align: center;
+	font-size: 30px;
+	text-decoration: uppercase;
+	text-transform: uppercase;
+	position: relative;
+}
+
+ 
+ h1{
+	 text-align: center;
+    font-size: 14px;
+    color: #4c4c4c;
+}
+
+*/
+
+.kontacta_full-section {
+    text-align: center;
+    background-color: #E6F6F5;
+    padding-top: 65px;
+}
+ 
+.kontacta_full-section .texing_column .konta h4{
+		font-size: 30px;
+		text-transform: uppercase;
+		position: relative;
+} 
+ 
+.kontacta_full-section .texing_column .konta h4::after {
+	content: '';
+	width: 85px;
+	height: 1px;
+	position: absolute;
+	background: #4fbcb7;
+	bottom: -18px;
+	left: 572px;
+	border-radius: 5px;
+}
+.kontacta_full-section .texing_column .konta h4::before {
+	content: '';
+	width: 43px;
+	height: 5px;
+	position: absolute;
+	background: #4fbcb7;
+	bottom: -20px;
+	left: 593px;
+	border-radius: -26px;
+}
+
+
+
+
+
+
+.kontacta_full-section .texing_column .hen h1 {
+	font-size: 14px;
+	margin:0px;
+}
+.kontacta_full-section  .texing_column .hen span{
+	font-size: 14px;
+	font-family:bold;
+	color:#6B6E6E;
+	margin:0px;
+}
+
+.kontacta_full-section .texing_column .phone_number {
+	font-size: 14px;
+	color: #6B6E6E;
+	margin-bottom: 37px;
+}
+.kontacta_full-section  .texing_column .peragraph1{
+	font-size: 14px;
+	color:#6B6E6E;
+}
+.kontacta_full-section  .texing_column .peragraph1 p{
+margin-bottom: -15px;
+}
+/*======================form and map part==============================*/
+
+
+.cnt-section {
+	background: #e6f6f5;
+	background-color: #E6F6F5;
+	padding-top: 140px;
+	padding-bottom: 122px;
+}
+.cnt-section input, .cnt-section textarea{
+	background:#c2e8e6;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+}
+
+.cnt-section textarea {
+	padding: 14px 13px;
+	border: none;
+	font-size: 14px;
+	color: #4c4c4c;
+	margin-bottom: 10px;
+	height: 220px;
+}
+
+.cnt-section input{
+	padding: 16px 13px;
+	border: none;
+	font-size: 14px;
+	color: #4c4c4c;
+	margin-bottom:15px;
+}
+
+.cnt-section .clm_part_full{
+	display: flex;
+	flex-wrap: wrap;
+}
+.cnt-section .frst-clm, .cnt-section .scnd-clm {
+	width: 50%;
+	background: a724cd;
+}
+
+
+.cnt-section .cnt-form {
+	max-width: 330px;
+	margin-bottom: 0;
+	margin-left: 111px;
+	margin-top: -11px;
+}
+.cnt-section .contact-button button {
+	font-size: 12px;
+	color: #1fd07d;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 500;
+	border: 2px solid #bcb04f;
+	padding: 10px 30px;
+	border-radius: 2px;
+	transition: .4s;
+	background: #6220;
+	cursor: pointer;
+	font-family: 'Poppins', sans-serif;
+}
+
+.contact-button {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.cnt-section .contact-button button:hover{
+	background: #ffff00;
+	color: #a724cd;
+}
+
+.cnt-section .map{
+	position: relative;
+	z-index:1111;
+}
+
+
+.cnt-section .map::before {
+	content: '';
+	position: absolute;
+	height: 39%;
+	width: 38%;
+	background: #4fbcb7;
+	left: -10px;
+	top: -11px;
+	z-index: -1;
+}
+
+.cnt-section .map::after {
+	content: '';
+	position: absolute;
+	height: 37%;
+	width: 37%;
+	background: #4fbcb7;
+	z-index: -1;
+	bottom: -4px;
+	right: 151px;
+}
+
+
+
+/*======================WEBSITE DEVELOPMENT==============================*/
+h6 {
+	text-align: center;
+	background: #17837f;
+	color: #fff;
+	font-size: 12px;
+	padding: 28px;
+	bottom: 10px;
+	margin-top: 0;
+}
