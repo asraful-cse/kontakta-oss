@@ -68,6 +68,31 @@ color: #01b2b4;
 	max-width:100%;
 }
 
+
+
+.slider_page-section .owl-prev{
+	position: absolute;
+top: 50%;
+color: #fff !important;
+background: #39f !important;
+left: 15px;
+height: 40px;
+width: 40px;
+border-radius: 50%;
+}
+
+
+
+.slider_page-section .owl-next{
+	position: absolute;
+top: 50%;
+color: #fff !important;
+background: #39f !important;
+right: 15px;
+height: 40px;
+width: 40px;
+border-radius: 50%;
+}
 /*==================OM OSS Part CSS===================*/
 
 .om_oss-section .main-clm{

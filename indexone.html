@@ -3,6 +3,7 @@
 <head>
 <title>Sunny_Second_Project</title>
 <link rel="stylesheet" type="text/css" href="styling.css">
+<link rel="stylesheet" href="js/owl.carousel.min.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
 </head>
@@ -32,15 +33,37 @@
 	</nav>
 
 							
+
+
+
 						<section class="slider_page-section">
 							<div class="container">
-								<div class="home_page_slider">
-									<img src="img/sliderfirst.jpg">
+								<div class="home_page_slider owl-carousel">
+									<div class="slider-item">
+										<img src="img/sliderfirst.jpg">
+									</div>
+									<div class="slider-item">
+										<img src="img/slonea.jpg">
+									</div>
+
+									<div class="slider-item">
+										<img src="img/sltwob.jpg">
+									</div>
+
+									<div class="slider-item">
+										<img src="img/slthreec.jpg">
+									</div>
+
+									<div class="slider-item">
+										<img src="img/slfourd.jpg">
+									</div>
+
 								</div>
 							
 							</div>
 						
 						</section>
+
 
 
 		<section class="om_oss-section">
@@ -148,6 +171,31 @@
 
 
 	<h6>WEBSITE DEVELOPMENT BY ONCE INTERACTIVE</h6>
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="https://kit.fontawesome.com/35959c4088.js" crossorigin="anonymous"></script>
+
+
+	<script>
+		$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+	  items:1,
+	  loop:true,
+	  autoplay:true,
+	  autoplayTimeOut:100,
+	  dots:true,
+	  nav:true,
+	  navText:['<i class="fas fa-angle-double-left"></i>','<i class="fas fa-angle-double-right"></i>']
+  });
+});
+	</script>
+
+
+
+
 </body>
 
 </html>
